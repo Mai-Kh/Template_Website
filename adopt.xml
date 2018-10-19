@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE adoptable_pets [
-<!ENTITY dog>
+<!ELEMENT dog>  <!-- and the rest of ENTITY's need to be changed to ELEMENT -->
 <!ENTITY age (#PCDATA)>
 <!ENTITY gender (#PCDATA)>
 <!ENTITY breed (PCDATA)>
